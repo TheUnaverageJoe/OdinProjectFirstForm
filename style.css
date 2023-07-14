@@ -1,0 +1,28 @@
+[id="side-panel"]{
+    width: 30%;
+    height: 100vh;
+    background-image: url(logo.avif);
+    background-size: cover;
+    background-position: center;
+}
+[id="title-bg"]{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 20%;
+    top: 20%;
+    position: relative;
+    margin: auto;
+    align-items: center;
+}
+p{
+    display: flex;
+    height: auto;
+    width: 80%;
+    line-height: 50px;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 40px;
+    font-family: Georgia;
+    color: white;
+}
