@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    .contents{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    [id="side-panel-container"]{
+        width: 100%;
+        height: 200px;
+    }
+    h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+    [id="title-container"]{
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    [id="title-container"] > p{
+        font-size: 35px;
+    }
+    [id="signup-sheet"]{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    [id="form-field"]{
+        display: flex;
+        flex-flow: column wrap;
+        /* justify-items: center; */
+        align-items: center;
+        padding-bottom: 15px;
+
+    }
+    .inputs{
+        flex-flow: column wrap;
+        row-gap: 20px;
+        width: 90%;
+    }
+    .input_field{
+        width: 100%;
+    }
+    .input_field > label{
+        text-align: center;
+    }
+}

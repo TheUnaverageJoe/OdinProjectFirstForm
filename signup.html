@@ -3,13 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>FestivalHaven Signup</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="smartphone.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Bagel+Fat+One|Roboto:700">
+
 </head>
 <body>
-    <div id="side-panel">
-        <div id="title-bg">
-            <p>Festival Haven Presents: Instagram Giveaway Winner</p>
+    <div class="contents">
+        <div id="side-panel-container">
+            <div id="title-container">
+                <h1>Festival Haven Presents:</h1>
+                <p>Instagram Giveaway Winner</p>
+            </div>
+        </div>
+        <div id="signup-sheet">
+            <p id="desciption">
+                This is not a live service. I am activly working on developing the front end 
+                and will be coming back to the program which interfaces with Instagram
+            </p>
+            <div id="form-field">
+                <p id="form-header">Get Started Now!</p>
+                <div class="inputs">
+                    <div class="input_field">
+                        <label class="form-label" for="first_name">* First Name</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="input_field">
+                        <label class="form-label" for="last_name">* Last Name</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                    </div>
+                    <div class="input_field">
+                        <label class="form-label" for="email">* Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input_field">
+                        <label class="form-label" for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                    <div class="input_field">
+                        <label class="form-label" for="password">* Password</label>
+                        <input type="password" id="password" name="password" minlength="5" maxlength="12" required>
+                    </div>
+                    <div class="input_field">
+                        <label class="form-label" for="password_confirm">* Confirm Password</label>
+                        <input type="password" id="password_confirm" required>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p id="have-account">Already have an account? <a href="login.html">Log In</a></p>
         </div>
     </div>
 </body>
